@@ -1,0 +1,75 @@
+You:
+
+
+Update Readme.md with  
+
+Application description: 2 paragraphs, 4-10 Sentences. 
+
+Information on how to run react app application locally. 
+
+At least 2 example urls how to change locale with using i18n. 
+------------------
+ChatGPT:
+
+
+Certainly! Below is a sample README.md that includes an application description, information on how to run the React app locally, and example URLs demonstrating how to change locale using i18n.
+
+React-i18n-App
+Application Description
+
+This is a simple React application designed to demonstrate the internationalization (i18n) of web applications. The app allows users to switch languages on-the-fly, and it serves localized content according to the selected language. This is extremely useful for apps that aim to provide a seamless user experience across different languages and regions.
+
+Built using React, the application utilizes the i18n library to handle text localization. Various features include a user-friendly interface, multiple language support, and responsive design. Whether you are learning about internationalization or looking to implement i18n in your project, this repository serves as a useful resource.
+
+Running the Application Locally
+
+Clone the Repository
+
+bash
+Copy code
+git clone https://github.com/yourusername/React-i18n-App.git
+
+
+Navigate to the Project Directory
+
+bash
+Copy code
+cd React-i18n-App
+
+
+Install Dependencies
+
+bash
+Copy code
+npm install
+
+
+Start the Development Server
+
+bash
+Copy code
+npm start
+
+
+The application should now be running on http://localhost:3000/.
+
+Changing Locale Using i18n
+
+You can change the locale by manipulating the URL or clicking on the designated language buttons within the app (if implemented). Here are two example URLs:
+
+Switch to French Language
+
+ruby
+Copy code
+http://localhost:3000/?lang=fr
+
+
+Switch to Spanish Language
+
+ruby
+Copy code
+http://localhost:3000/?lang=es
+
+
+Feel free to adapt this README to the specific details of your React-i18n-App project!
+------------------
